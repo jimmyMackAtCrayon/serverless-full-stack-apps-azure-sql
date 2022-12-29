@@ -3,7 +3,7 @@ namespace GetBusData;
 public class GetBusDataFunction
 {
     private readonly IBusDataManagerService _busDataManagerService;
-
+    // Comment
     public GetBusDataFunction(
         IBusDataManagerService busDataManagerService) =>
         _busDataManagerService = busDataManagerService;

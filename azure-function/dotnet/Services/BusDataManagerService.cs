@@ -33,7 +33,7 @@ public sealed class BusDataManagerService : IBusDataManagerService
         // Push data to Azure SQL and get the activated geofences
         var activatedGeofences = await ProcessGeoFencesAsync(buses);
 
-        // Send notifications
+        // Send notifications More Comments
         foreach (var geoFence in activatedGeofences)
         {
             _log.LogInformation(
